@@ -12,4 +12,5 @@ export function useLocalStorage<T>(item: string) {
         value,
         updateLocalStorage
     }
+
 }

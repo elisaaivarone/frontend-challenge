@@ -32,7 +32,7 @@ const InputContainer = styled.div`
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
 
-export function PrimaryInputSearchIcon (props: InputProps) {
+export function PrimaryInputWSearchIcon (props: InputProps) {
     return (
         <InputContainer>
             <PrimaryInput {...props}/>
