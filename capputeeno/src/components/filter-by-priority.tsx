@@ -4,9 +4,6 @@ import { useState } from "react"
 import { useFilter } from "@/hooks/useFilter"
 import { PriorityTypes } from "@/types/priority-types"
 
-interface FilterByPriorityProps{
-
-}
 
 const FilterContainer = styled.div`
     display: flex;
@@ -59,7 +56,7 @@ const PriorityFilter = styled.ul`
         margin-top: 4px;
     }
 `
-export function FilterByPriority(props : FilterByPriorityProps) {
+export function FilterByPriority() {
     const [ isOpen, setIsOpen ] = useState(false);
     const { setPriority } = useFilter()
 
@@ -78,8 +75,8 @@ export function FilterByPriority(props : FilterByPriorityProps) {
             {isOpen && 
             <PriorityFilter>
                 <li onClick={() => handleUpdatePriority(PriorityTypes.NEWS)}>Novidades</li>
-                <li onClick={() => handleUpdatePriority(PriorityTypes.BIGGEST_PRICE)}>Preço:Maior - menor</li>
-                <li onClick={() => handleUpdatePriority(PriorityTypes.MINOR_PRICE)}>Preço:Menor - maior</li>
+                <li onClick={() => handleUpdatePriority(PriorityTypes.BIGGEST_PRICE)}>Preço: Maior - menor</li>
+                <li onClick={() => handleUpdatePriority(PriorityTypes.MINOR_PRICE)}>Preço: Menor - maior</li>
                 <li onClick={() => handleUpdatePriority(PriorityTypes.POPULARITY)}>Mais vendidos</li>
             </PriorityFilter>}
         </FilterContainer>
