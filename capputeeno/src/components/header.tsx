@@ -46,7 +46,7 @@ const Logo = styled.a`
     text-decoration: none;
 
     @media(min-width: ${props => props.theme.tableBreakpoint}){
-        font-size: 24px;
+        font-size: 40px;
     }
 
     @media(min-width: ${props => props.theme.desktopBreakPoint}){
