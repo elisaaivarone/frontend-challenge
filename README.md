@@ -17,8 +17,6 @@ O desafio será implementar um e-commerce para venda de canecas e camisetas que 
 
 ## 📋 Instruções
 
-Chegou a hora de colocar a mão na massa!
-
 - Siga [esse protótipo](https://www.figma.com/file/rET9F2CeUEJdiVN7JRu993/E-commerce---capputeeno?node-id=680%3A6449)
 - Utilize Next.js e Typescript
 - Faça a estilização com styled-components
@@ -35,7 +33,7 @@ git clone https://github.com/Rocketseat/frontend-challenge.git
 ```
 2. Go to the project folder
 ```bash
-cd challenge-frontend
+cd frontend-challenge
 cd capputeeno
 ```
 
@@ -55,7 +53,7 @@ npm run dev
 2. Go to the API folder
 
 ```bash
-cd challenge-frontend
+cd frontend-challenge
 cd api
 ```
 
