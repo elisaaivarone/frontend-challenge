@@ -6,7 +6,7 @@ Este repositório contém minha solução para o [Frontend Challenge]() de códi
 
 # 🧠 Contexto
 
-![Protótipo](https://storage.googleapis.com/xesque-dev/challenge-images/prototipo.png?42)
+![Prototype](./.github/prototype.png)
 
 O desafio será implementar um e-commerce para venda de canecas e camisetas que deverá ter as seguintes funcionalidades:
 - [x] Catálogo de produtos com paginação
